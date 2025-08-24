@@ -57,7 +57,6 @@ It provides a simple interface to write, run, and test code in multiple language
 
 ### 1️ Clone Repo
 ```bash
-git clone https://github.com/<your-username>/codedock.git
 cd codedock
 docker-compose up --build
 ```
