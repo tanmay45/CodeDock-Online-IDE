@@ -55,7 +55,6 @@ It provides a simple interface to write, run, and test code in multiple language
 
 ## ⚙️ Development Setup
 
-### 1️ Clone Repo
 ```bash
 cd codedock
 docker-compose up --build
