@@ -55,7 +55,8 @@ It provides a simple interface to write, run, and test code in multiple language
 
 ## ⚙️ Development Setup
 
-git clone https://github.com/<your-username>/codedock.git
+git clone https://github.com/tanmay45/CodeDock-Online-IDE
+``` bash
 cd codedock
 docker-compose up --build
 ```
