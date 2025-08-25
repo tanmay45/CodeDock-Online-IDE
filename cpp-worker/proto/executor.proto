@@ -1,0 +1,19 @@
+syntax = "proto3";
+package executor;
+service Executor {
+  rpc Run (RunRequest) returns (RunResponse) {}
+}
+message RunRequest {
+  string language = 1;
+  string code = 2;
+  string stdin = 3;
+  repeated string args = 4;
+  int32 timeoutMs = 5;
+}
+message RunResponse {
+  int32 exitCode = 1;
+  string stdout = 2;
+  string stderr = 3;
+  string error = 4;
+  int64 durationMs = 5;
+}
