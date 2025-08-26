@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
+//Snippets Importing from different file instead of maintaining it as hard-coded
 import SNIPPETS from './Snippets'
 
 const API = import.meta.env.VITE_API_URL || 'http://localhost:8080'
