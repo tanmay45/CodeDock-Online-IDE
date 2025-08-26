@@ -1,3 +1,4 @@
+-- Execution Table SCHEMA to manage history, input, output
 CREATE TABLE IF NOT EXISTS executions (
   id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
   language TEXT NOT NULL,
