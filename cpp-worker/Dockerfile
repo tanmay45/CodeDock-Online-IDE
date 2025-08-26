@@ -1,5 +1,5 @@
+# Dockerfile for CPP-Worker
 # C++ Worker: Python gRPC wrapper that shells out to g++
-
 FROM python:3.11-slim
 
 # Set working directory
