@@ -1,3 +1,4 @@
+//Server Configrations
 export const config = {
   port: parseInt(process.env.API_PORT || '8080', 10),
   redisUrl: process.env.REDIS_URL || 'redis://redis:6379',

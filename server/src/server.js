@@ -7,6 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json({ limit: '1mb' }));
 
+//Api Health check
 app.get('/health', (_,res)=> res.json({ ok: true }));
 
 app.get('/executions', async (_,res) => res.json(await listExecutions(100)));
